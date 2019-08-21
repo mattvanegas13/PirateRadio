@@ -1,0 +1,50 @@
+Arguments: 
+  /home/stc2137/.nvm/versions/node/v10.10.0/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarnpkg install
+
+PATH: 
+  /home/stc2137/.nvm/versions/node/v10.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_672623546:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/ProgramData/Oracle/Java/javapath_target_672797750:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/PharosSystems/Core:/mnt/c/Program Files/MATLAB/R2017a/runtime/win64:/mnt/c/Program Files/MATLAB/R2017a/bin:/mnt/c/Program Files (x86)/Skype/Phone:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Java/jdk1.8.0_144/bin:/mnt/c/Program Files (x86)/scala/bin:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Users/seren/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Users/seren/AppData/Local/Programs/Python/Python37:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Users/seren/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Users/seren/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/seren/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MongoDB/Server/4.0/bin:/mnt/c/Program Files/MiKTeX 2.9/miktex/bin/x64:/snap/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/home/stc2137/.cache/yarn/v4/npm-expo-permissions-interface-2.0.0-563fd815925fd472a1b04f292afc9bef77f14774/node_modules/expo-permissions-interface/android/src'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject",
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "2.1.1",
+      "expo": "^32.0.0",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+      "react-navigation": "^3.0.9"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0",
+      "jest-expo": "^32.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
